@@ -184,7 +184,7 @@ for file in files:
         # 保存新的图像
 
         ss = os.path.basename(IMAGE_NAME) + ""
-        print(ss)
+        #print(ss)
         #cv2.imwrite('final_2/'+ ss, merged_img)
         #cv2.imwrite('final_1/'+ ss, merged_img)
         cv2.imwrite('final_4/'+ ss, merged_img)
